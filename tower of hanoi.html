@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script text="text/javascript" src="tohjs.js"></script>
+        <link rel="stylesheet" href="tohcss.css">
+        <title>Tower of hanoi</title>
+    </head>
+    <body onload = "getval()" id="body">
+       <div id="sel"> Choose the base value:<br>
+        <select id="base" oninput="getval()">
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select></div><br>
+        <div id="over" class="over">
+            You won<br><br>
+            <button onclick="complete()">OK</button>
+        </div>
+        <br><br>
+        <div id="struct" class="struct">
+            <svg width="600" height="250">
+                <rect class="left" x="80px" y="50px"></rect>
+                <rect class="middle" x="290px" y="50px"></rect>
+                <rect class="right" x="500px" y="50px"></rect>
+                <rect class="base" x="10px" y="220px"></rect>
+                <rect class="one" id="one"></rect>
+                <rect class="two" id="two"></rect>
+                <rect class="three" id="three"></rect>
+                <rect class="four" id="four"></rect>
+                <rect class="five" id="five"></rect>
+                <rect class="six" id="six"></rect>
+                <rect class="seven" id="seven"></rect>
+            </svg>
+            <br>    
+            <input type="button" id="tower1" class="tower1" onclick="game(1)">
+            <input type="button" id="tower2" class="tower2" onclick="game(2)">
+            <input type="button" id="tower3" class="tower3" onclick="game(3)">
+        </div>
+        <div class="timer">
+            <p id="timer"></p>
+        </div>
+    </body>
+</html>

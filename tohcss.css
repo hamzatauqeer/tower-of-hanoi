@@ -1,0 +1,381 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: rgb(35, 150, 121);
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    width: 99%;
+}
+
+select{
+    background-color: rgb(35, 150, 121);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+select:focus{
+    background-color: white;
+    color: rgb(35, 150, 121);
+}
+.left,.middle,.right{
+    width: 20px;
+    height: 170px;
+    fill:rgb(226, 190, 143);
+    stroke: black;
+    stroke-width: 1px;
+}
+.one{
+    width: 40px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.two{
+    width: 55px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.three{
+    width: 70px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.four{
+    display: none;
+    width: 85px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.five{
+    display: none;
+    width: 100px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.six{
+    display: none;
+    width: 115px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.seven{
+    display: none;
+    width: 130px;
+    height: 20px;
+    fill: rgb(35, 150, 121);
+    stroke: black;
+    stroke-width: 1px;
+}
+.base{
+    width: 600px;
+    height: 20px;
+    fill:rgb(226, 190, 143);
+    stroke: black;
+    stroke-width: 1px;
+}
+.base,.left,.middle,.right{
+    position: relative;
+    z-index: -1;
+}
+input[type = "button"]{
+    background-color: rgb(35, 150, 121);
+    padding: 8px 15px 8px 15px;
+    position: relative;
+    border: 0px;
+    border-radius: 5px;
+}
+.tower1{
+    left: -174px;
+}
+.tower3{
+    right: -174px;
+}
+.timer{
+    font-size: 40px;
+    padding: 15px;
+}
+.over{
+    display: none;
+    position: fixed;
+    margin-left: 46%;
+    margin-top: 15%;
+    z-index: -3;
+    padding: 30px;
+    background-color: rgb(35, 150, 121);
+    color: rgb(32, 32, 32);
+    left: -50px;
+    top: -15px;
+    border: 30px;
+    border-bottom: 0px;
+    border-color: rgb(35, 150, 121);
+    border-style: solid;
+    border-radius: 5px;
+}
+button{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.blur{
+    filter: blur(8px);
+}
+.noblur{
+    filter: none;
+}
+@keyframes moveY1 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-70px);
+    }
+}
+.moveY1{
+    animation: moveY1 1s ease-in forwards;
+}
+
+@keyframes moveY2 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-90px);
+    }
+}
+.moveY2{
+    animation: moveY2 1s ease-in forwards;
+}
+
+@keyframes moveY3 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-110px);
+    }
+}
+.moveY3{
+    animation: moveY3 1s ease-in forwards;
+}
+
+@keyframes moveY4 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-130px);
+    }
+}
+.moveY4{
+    animation: moveY4 1s ease-in forwards;
+}
+
+@keyframes moveY5 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-150px);
+    }
+}
+.moveY5{
+    animation: moveY5 1s ease-in forwards;
+}
+
+@keyframes moveY6 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-170px);
+    }
+}
+.moveY6{
+    animation: moveY6 1s ease-in forwards;
+}
+
+@keyframes moveY7 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-190px);
+    }
+}
+.moveY7{
+    animation: moveY7 1s ease-in forwards;
+}
+
+
+@keyframes RmoveY1 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(65px);
+    }
+}
+.RmoveY1{
+    animation: RmoveY1 1s ease-in forwards;
+}
+
+@keyframes RmoveY2 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(85px);
+    }
+}
+.RmoveY2{
+    animation: RmoveY2 1s ease-in forwards;
+}
+
+@keyframes RmoveY3 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(105px);
+    }
+}
+.RmoveY3{
+    animation: RmoveY3 1s ease-in forwards;
+}
+
+@keyframes RmoveY4 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(125px);
+    }
+}
+.RmoveY4{
+    animation: RmoveY4 1s ease-in forwards;
+}
+
+@keyframes RmoveY5 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(145px);
+    }
+}
+.RmoveY5{
+    animation: RmoveY5 1s ease-in forwards;
+}
+
+@keyframes RmoveY6 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(165px);
+    }
+}
+.RmoveY6{
+    animation: RmoveY6 1s ease-in forwards;
+}
+
+@keyframes RmoveY7 {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(185px);
+    }
+}
+.RmoveY7{
+    animation: RmoveY7 1s ease-in forwards;
+}
+
+
+@keyframes moveX12{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(210px);
+    }
+}
+.moveX12{
+    animation: moveX12 1s ease-in forwards;
+}
+
+@keyframes moveX13{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(420px);
+    }
+}
+.moveX13{
+    animation: moveX13 1s ease-in forwards;
+}
+
+@keyframes moveX23{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(210px);
+    }
+}
+.moveX23{
+    animation: moveX23 1s ease-in forwards;
+}
+
+@keyframes RmoveX12{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-210px);
+    }
+}
+.RmoveX12{
+    animation: RmoveX12 1s ease-in forwards;
+}
+
+@keyframes RmoveX13{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-420px);
+    }
+}
+.RmoveX13{
+    animation: RmoveX13 1s ease-in forwards;
+}
+
+@keyframes RmoveX23{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-210px);
+    }
+}
+.RmoveX23{
+    animation: RmoveX23 1s ease-in forwards;
+}
+
+.back{
+    backdrop-filter: blur(100px);
+}
