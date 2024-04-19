@@ -143,7 +143,7 @@ button{
     }
 }
 .moveY1{
-    animation: moveY1 1s ease-in forwards;
+    animation: moveY1 0.5s ease-in forwards;
 }
 
 @keyframes moveY2 {
@@ -155,7 +155,7 @@ button{
     }
 }
 .moveY2{
-    animation: moveY2 1s ease-in forwards;
+    animation: moveY2 0.5s ease-in forwards;
 }
 
 @keyframes moveY3 {
@@ -167,7 +167,7 @@ button{
     }
 }
 .moveY3{
-    animation: moveY3 1s ease-in forwards;
+    animation: moveY3 0.5s ease-in forwards;
 }
 
 @keyframes moveY4 {
@@ -179,7 +179,7 @@ button{
     }
 }
 .moveY4{
-    animation: moveY4 1s ease-in forwards;
+    animation: moveY4 0.5s ease-in forwards;
 }
 
 @keyframes moveY5 {
@@ -191,7 +191,7 @@ button{
     }
 }
 .moveY5{
-    animation: moveY5 1s ease-in forwards;
+    animation: moveY5 0.5s ease-in forwards;
 }
 
 @keyframes moveY6 {
@@ -203,7 +203,7 @@ button{
     }
 }
 .moveY6{
-    animation: moveY6 1s ease-in forwards;
+    animation: moveY6 0.5s ease-in forwards;
 }
 
 @keyframes moveY7 {
@@ -215,7 +215,7 @@ button{
     }
 }
 .moveY7{
-    animation: moveY7 1s ease-in forwards;
+    animation: moveY7 0.5s ease-in forwards;
 }
 
 
@@ -228,7 +228,7 @@ button{
     }
 }
 .RmoveY1{
-    animation: RmoveY1 1s ease-in forwards;
+    animation: RmoveY1 0.5s ease-in forwards;
 }
 
 @keyframes RmoveY2 {
@@ -240,7 +240,7 @@ button{
     }
 }
 .RmoveY2{
-    animation: RmoveY2 1s ease-in forwards;
+    animation: RmoveY2 0.5s ease-in forwards;
 }
 
 @keyframes RmoveY3 {
@@ -252,7 +252,7 @@ button{
     }
 }
 .RmoveY3{
-    animation: RmoveY3 1s ease-in forwards;
+    animation: RmoveY3 0.5s ease-in forwards;
 }
 
 @keyframes RmoveY4 {
@@ -264,7 +264,7 @@ button{
     }
 }
 .RmoveY4{
-    animation: RmoveY4 1s ease-in forwards;
+    animation: RmoveY4 0.5s ease-in forwards;
 }
 
 @keyframes RmoveY5 {
@@ -276,7 +276,7 @@ button{
     }
 }
 .RmoveY5{
-    animation: RmoveY5 1s ease-in forwards;
+    animation: RmoveY5 0.5s ease-in forwards;
 }
 
 @keyframes RmoveY6 {
@@ -288,7 +288,7 @@ button{
     }
 }
 .RmoveY6{
-    animation: RmoveY6 1s ease-in forwards;
+    animation: RmoveY6 0.5s ease-in forwards;
 }
 
 @keyframes RmoveY7 {
@@ -300,7 +300,7 @@ button{
     }
 }
 .RmoveY7{
-    animation: RmoveY7 1s ease-in forwards;
+    animation: RmoveY7 0.5s ease-in forwards;
 }
 
 
@@ -313,7 +313,7 @@ button{
     }
 }
 .moveX12{
-    animation: moveX12 1s ease-in forwards;
+    animation: moveX12 0.5s ease-in forwards;
 }
 
 @keyframes moveX13{
@@ -325,7 +325,7 @@ button{
     }
 }
 .moveX13{
-    animation: moveX13 1s ease-in forwards;
+    animation: moveX13 0.5s ease-in forwards;
 }
 
 @keyframes moveX23{
@@ -337,7 +337,7 @@ button{
     }
 }
 .moveX23{
-    animation: moveX23 1s ease-in forwards;
+    animation: moveX23 0.5s ease-in forwards;
 }
 
 @keyframes RmoveX12{
@@ -349,7 +349,7 @@ button{
     }
 }
 .RmoveX12{
-    animation: RmoveX12 1s ease-in forwards;
+    animation: RmoveX12 0.5s ease-in forwards;
 }
 
 @keyframes RmoveX13{
@@ -361,7 +361,7 @@ button{
     }
 }
 .RmoveX13{
-    animation: RmoveX13 1s ease-in forwards;
+    animation: RmoveX13 0.5s ease-in forwards;
 }
 
 @keyframes RmoveX23{
@@ -373,7 +373,7 @@ button{
     }
 }
 .RmoveX23{
-    animation: RmoveX23 1s ease-in forwards;
+    animation: RmoveX23 0.5s ease-in forwards;
 }
 
 .back{
