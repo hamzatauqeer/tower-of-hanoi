@@ -237,7 +237,7 @@ function game(k){
     }
     if((tow2.length == result.length) || (tow3.length == result.length)){
         clearInterval(t);
-        setTimeout(finish,2200);
+        setTimeout(finish,1100);
     }
 }
 
@@ -281,56 +281,56 @@ function animated(a,b){
     if(b==1){
         if(air[0] == 1){
             f(y,tow1.length-1);
-            setTimeout(enable,1000);
+            setTimeout(enable,500);
         }
         else if(air[0] == 2){
             y.classList.add("RmoveX12");
-            setTimeout(function k(y,x){y.classList.remove("RmoveX12");y.setAttribute("x",getX(x))},1000,y,x);
-            setTimeout(f,1000,y,tow1.length-1);
-            setTimeout(enable,2000);
+            setTimeout(function k(y,x){y.classList.remove("RmoveX12");y.setAttribute("x",getX(x))},500,y,x);
+            setTimeout(f,500,y,tow1.length-1);
+            setTimeout(enable,1000);
         }
         else{
             y.classList.add("RmoveX13");
-            setTimeout(function k(y,x){y.classList.remove("RmoveX13");y.setAttribute("x",getX(x))},1000,y,x);
-            setTimeout(f,1000,y,tow1.length-1);
-            setTimeout(enable,2000);
+            setTimeout(function k(y,x){y.classList.remove("RmoveX13");y.setAttribute("x",getX(x))},500,y,x);
+            setTimeout(f,500,y,tow1.length-1);
+            setTimeout(enable,1000);
         }
 
     }
     else if(b==2){
         if(air[0] == 2){
             f(y,tow2.length-1);
-            setTimeout(enable,1000);
+            setTimeout(enable,500);
         }
         else if(air[0] == 1){
             y.classList.add("moveX12");
-            setTimeout(function k(y,x){y.classList.remove("moveX12");y.setAttribute("x",getX(x)+210);},1000,y,x);
-            setTimeout(f,1000,y,tow2.length-1);
-            setTimeout(enable,2000);
+            setTimeout(function k(y,x){y.classList.remove("moveX12");y.setAttribute("x",getX(x)+210);},500,y,x);
+            setTimeout(f,500,y,tow2.length-1);
+            setTimeout(enable,1000);
         }
         else{
             y.classList.add("RmoveX23");
-            setTimeout(function k(y,x){y.classList.remove("RmoveX23");y.setAttribute("x",getX(x)+210)},1000,y,x);
-            setTimeout(f,1000,y,tow2.length-1);
-            setTimeout(enable,2000);
+            setTimeout(function k(y,x){y.classList.remove("RmoveX23");y.setAttribute("x",getX(x)+210)},500,y,x);
+            setTimeout(f,500,y,tow2.length-1);
+            setTimeout(enable,1000);
         }
     }
     else if(b==3){
         if(air[0] == 3){
             f(y,tow3.length-1);
-            setTimeout(enable,1000);
+            setTimeout(enable,500);
         }
         else if(air[0] == 1){
             y.classList.add("moveX13");
-            setTimeout(function k(y,x){y.classList.remove("moveX13");y.setAttribute("x",getX(x)+420)},1000,y,x);
-            setTimeout(f,1000,y,tow3.length-1);
-            setTimeout(enable,2000);
+            setTimeout(function k(y,x){y.classList.remove("moveX13");y.setAttribute("x",getX(x)+420)},500,y,x);
+            setTimeout(f,500,y,tow3.length-1);
+            setTimeout(enable,1000);
         }
         else{
             y.classList.add("moveX23");
-            setTimeout(function k(y,x){y.classList.remove("moveX23");y.setAttribute("x",getX(x)+420)},1000,y,x);
-            setTimeout(f,1000,y,tow3.length-1);
-            setTimeout(enable,2000);
+            setTimeout(function k(y,x){y.classList.remove("moveX23");y.setAttribute("x",getX(x)+420)},500,y,x);
+            setTimeout(f,500,y,tow3.length-1);
+            setTimeout(enable,1000);
         }
     }
     else{
@@ -345,7 +345,7 @@ function animated(a,b){
                 case 7: z = "moveY1"; break;
             }
             y.classList.add(z);
-            setTimeout(function f2(y,z){y.classList.remove(z);y.setAttribute("y","15px")},1000,y,z);
+            setTimeout(function f2(y,z){y.classList.remove(z);y.setAttribute("y","15px")},500,y,z);
         }
         else if(a==2){
             switch(tow2.length){
@@ -358,7 +358,7 @@ function animated(a,b){
                 case 7: z = "moveY1"; break;
             }
             y.classList.add(z);
-            setTimeout(function f2(y,z){y.classList.remove(z);y.setAttribute("y","15px")},1000,y,z);
+            setTimeout(function f2(y,z){y.classList.remove(z);y.setAttribute("y","15px")},500,y,z);
         }
         else{
             switch(tow3.length){
@@ -371,8 +371,8 @@ function animated(a,b){
                 case 7: z = "moveY1"; break;
             }
             y.classList.add(z);
-            setTimeout(function f2(y,z){y.classList.remove(z);y.setAttribute("y","15px")},1000,y,z);
+            setTimeout(function f2(y,z){y.classList.remove(z);y.setAttribute("y","15px")},500,y,z);
         }
-        setTimeout(enable,1000);
+        setTimeout(enable,500);
     }
 }
