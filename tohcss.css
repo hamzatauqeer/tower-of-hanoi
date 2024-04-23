@@ -17,6 +17,13 @@ select:focus{
     background-color: white;
     color: rgb(35, 150, 121);
 }
+.lefthitbox,.middlehitbox,.righthitbox{
+    width: 140px;
+    height: 180px;
+    fill: rgb(32, 32, 32);
+    position: relative;
+    z-index: -2;
+}
 .left,.middle,.right{
     width: 20px;
     height: 170px;
